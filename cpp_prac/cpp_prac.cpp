@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <iomanip>
 #include <string>
 #include <sstream>
@@ -55,58 +55,56 @@ int main()
     //}
 
     //Задание 2
-    /*string al1 = " ,.;:)!?}]'", al2 = " ({['";
-    char str[80], word[80];
-    int i, j, k = 0, t = 0, l1 = 0, l2 = 0;
-    cout << "Введите текст: ";
-    gets_s(str);
-    cout << "Введите слово: ";
-    gets_s(word);
-    for (i = 0; word[i]; i++) {
-        l1++;
-    }
-    for (i = 0; str[i]; i++) {
-        l2++;
-    }
-    for (i = 0; str[i]; i++) {
-        for (j = 0; word[j]; j++) {
-            if (str[i + j] == word[j]) {
-                k++;
-            }
-            else {
-                break;
-            }
-        }
-        if (k == l1) {
-            if (i != 0 and i + l1 != l2) {
-                if (al2.find(str[i - 1]) != -1 and al1.find(str[i + l1]) != -1) {
-                    t++;
-                    k = 0;
-                }
-            }
-            else if (i == 0 and i + l1 != l2) {
-                 if (al1.find(str[i + l1]) != -1) {
-                     t++;
-                     k = 0;
-                }
-            }
-            else if (i + l1 == l2 and i != 0) {
-                if (al2.find(str[i - 1]) != -1) {
-                    t++;
-                    k = 0;
-                }
-            }
-            else if (i + l1 == l2 and i == 0) {
-                    t++;
-                    k = 0;
-                
-            }
-        }
-        else {
-            k = 0;
-        }
-    }
-    cout << t;*/
+    //string al1 = " ,.;:)!?}]'", al2 = " ({['";
+    //char str[80], word[80];
+    //int i, j, k = 0, t = 0, l1 = 0, l2 = 0;
+    //cout << "Введите текст: ";
+    //gets_s(str);
+    //cout << "Введите слово: ";
+    //gets_s(word);
+    //for (i = 0; word[i]; i++) {
+    //    l1++;
+    //}
+    //for (i = 0; str[i]; i++) {
+    //    l2++;
+    //}
+    //for (i = 0; str[i]; i++) {
+    //    for (j = 0; word[j]; j++) {
+    //        if (str[i + j] == word[j]) {
+    //            k++;
+    //        }
+    //        else {
+    //            break;
+    //        }
+    //    }
+    //    if (k == l1) {
+    //        if (i != 0 and i + l1 != l2) {
+    //            if (al2.find(str[i - 1]) != -1 and al1.find(str[i + l1]) != -1) {
+    //                t++;
+    //                k = 0;
+    //            }
+    //        }
+    //        else if (i == 0 and i + l1 != l2) {
+    //             if (al1.find(str[i + l1]) != -1) {
+    //                 t++;
+    //                 k = 0;
+    //            }
+    //        }
+    //        else if (i + l1 == l2 and i != 0) {
+    //            if (al2.find(str[i - 1]) != -1) {
+    //                t++;
+    //                k = 0;
+    //            }
+    //        }
+    //        else if (i + l1 == l2 and i == 0) {
+    //                t++;
+    //                k = 0;
+    //            
+    //        }
+    //    }
+    //    k = 0;
+    //}
+    //cout << t;
 
 
     return 0;
