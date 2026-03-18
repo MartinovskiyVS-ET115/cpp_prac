@@ -62,13 +62,13 @@ int main()
     //gets_s(str);
     //cout << "Введите слово: ";
     //gets_s(word);
-    //for (i = 0; word[i]; i++) {
+    //for (i = 0; word[i]; i++) {//Узнаем размер слова.
     //    l1++;
     //}
-    //for (i = 0; str[i]; i++) {
+    //for (i = 0; str[i]; i++) {//Узнаем размер текста.
     //    l2++;
     //}
-    //for (i = 0; str[i]; i++) {
+    //for (i = 0; str[i]; i++) {//посимвольно перебираем по тексту.
     //    for (j = 0; word[j]; j++) {
     //        if (str[i + j] == word[j]) {
     //            k++;
@@ -77,7 +77,7 @@ int main()
     //            break;
     //        }
     //    }
-    //    if (k == l1) {
+    //    if (k == l1) {//критерии.
     //        if (i != 0 and i + l1 != l2) {
     //            if (al2.find(str[i - 1]) != -1 and al1.find(str[i + l1]) != -1) {
     //                t++;
